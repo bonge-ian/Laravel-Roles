@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: {
+        family: 'Work Sans', sans-serif;
+        size: 16.5px;
+    }
+    line-height: 1.5;
+    background: #f8f8f8;
+    color: #333;
+}
+
+.top-bar {
+    @include top-bar-container;
+    
+    .menu a, .menu-text a {
+        background: inherit;
+
+    }
+}
